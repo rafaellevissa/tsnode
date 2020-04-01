@@ -4,6 +4,8 @@ module.exports = {
         "node": true
     },
     "extends": [
+        "plugin:@typescript-eslint/recommended",
+        "prettier/@typescript-eslint",
         "standard"
     ],
     "globals": {
